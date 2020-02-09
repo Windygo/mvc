@@ -9,7 +9,8 @@ class Pages extends Controller {
   public function index(){
 
     $data = array(
-      'title' => 'Eshel MVC',        
+      'title' => 'SharePosts', 
+      'description' => 'Simple social network built on the Eshel PHP MVC framework'      
     );
 
     $this->view('index', $data);  //don't add the .php -- it is added by the controller
@@ -17,7 +18,8 @@ class Pages extends Controller {
 
   public function about(){ 
     $data = array(
-      'title' => 'About Us',     
+      'title' => 'About Us',  
+      'description' => 'App to share posts with other users.'   
     );
 
     $this->view('about', $data);  //don't add the .php -- it is added by the controller

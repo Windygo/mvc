@@ -1,19 +1,14 @@
 <?php
-@include('inc/header.php')
+@include('inc/header.php');
 ?>
-
-<div class="container">
-  
-  <header><h1><?php echo $data['title']; ?></h1></header>
-  <div class="main p-2">    
-   
+<div class="jumbotron jumbotron-fluid text-center">
+  <div class="container">
+    <h1 class="display-3"><?php echo $data['title']; ?></h1>
+    <p class="lead"><?php echo $data['description']; ?></p>
+    <p class="lead"><strong>Version: <?php echo APP_VERSION; ?></strong></p>
   </div>
-
 </div>
-
+<div class="main">  
+</div>
 <?php
 @include('inc/footer.php');
-
-
-
-

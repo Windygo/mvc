@@ -1,30 +1,10 @@
 /* Main Styles Here */
-
-body, p, ul, ol,  li, div, header, footer, .main {
-  font-family: "Roboto", sans-serif;
+.container.container__main {
+  min-height: 81.3vh;
 }
 
-header, footer {
-  text-align: center;
-  background-color: lightslategray;
-  color:white;
-  padding: 1rem;
+footer {
+  background-color: slategray;
 }
-
-.m-1 { margin: 1rem; }
-.m-2 { margin: 2rem; }
-.m-3 { margin: 3rem; }
-
-.mt-1 { margin-top: 1rem; }
-.mt-2 { margin-top: 2rem; }
-.mt-3 { margin-top: 3rem; }
-
-.mb-1 { margin-bottom: 1rem; }
-.mb-2 { margin-bottom: 2rem; }
-.mb-3 { margin-bottom: 3rem; }
-
-.p-1 { padding: 1rem; }
-.p-2 { padding: 2rem; }
-.p-3 { padding: 3rem; }
 
 
