@@ -1,5 +1,5 @@
 # mvc
-Eshel MVC - Plain vanilla mvc framework
+Eshel MVC - Plain vanilla PHP MVC framework
 
   1. config.php - Under /app/config/config.php - edit the 3 lines with db constants: user, password, db name to match your db settings
 
